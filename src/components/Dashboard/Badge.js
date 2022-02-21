@@ -1,6 +1,6 @@
 import React from 'react'
 import styled  from 'styled-components'
-import {themeColor} from '../Dashboard/utils'
+// import {themeColor} from '../Dashboard/utils'
 
 const Badge = ({ content, clean=false,glow = false , paid = false, late = false}) => {
   return (

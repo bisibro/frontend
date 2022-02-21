@@ -13,7 +13,6 @@ import {
   Accent
 } from "./BankElements";
 import { useNavigate } from "react-router-dom";
-import Footer from "../Footer";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
@@ -61,6 +60,7 @@ const BankDetails = () => {
   return (
     <>
       <Container>
+        <ToastContainer />
         <FormWrap>
           <Icon to="/"> CapitalEquity</Icon>
           <FormContent>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Form, FormContent, FormWrap, Icon, Container, FormH1, FormLabel, FormInput, FormButton, Text } from './WithdrawElements'
 import { useNavigate } from "react-router-dom";
-import Footer from "../Footer";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";

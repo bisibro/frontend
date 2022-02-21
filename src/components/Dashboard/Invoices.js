@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Badge from "./Badge";
-import { cardShadow, hoverEffect, themeColor } from "./utils";
+import { cardShadow, hoverEffect } from "./utils";
 import AvatarImage from "../../images/user.png";
 
 const Invoices = () => {
