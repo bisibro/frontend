@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import {
   Form,
@@ -37,11 +37,11 @@ const SignIn = () => {
         let user = res.data.user;
         if (user) {
           toast.success("Login Successful");
-         
+          sessionStorage.setItem("user", JSON.stringify(user));
+
         }
 
         setTimeout(() => {
-          sessionStorage.setItem("user", JSON.stringify(user));
           navigate("/dashboard");
         }, 3000);
       })
